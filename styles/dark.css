@@ -3,10 +3,66 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root.theme_dark {
+  --main-font-family: 'IBM Plex Mono', monospace;
+  --accent-color: #FF0070;
+  --main-bg-color: #00183f;
+  --color-for-titles: #db00ff;
+  --main-text-color: #f1b2ce;
+  --color-corners: #ff0070;
+  --link-color: #FF0070;
+  --color-dropshadow: #FF0070;
+  --main-heading-color: #ff0070;
+  --section-heading-color: #000028;
+  --section-subtitle-color: #353535;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-font-family: 'IBM Plex Mono', monospace;
+    --accent-color: #FF0070;
+    --main-bg-color: #00183f;
+    --color-for-titles: #db00ff;
+    --main-text-color: #f1b2ce;
+    --color-corners: #ff0070;
+    --link-color: #FF0070;
+    --color-dropshadow: #FF0070;
+    --main-heading-color: #ff0070;
+    --section-heading-color: #000028;
+    --section-subtitle-color: #353535;
+    --dis-none: visible;
+
+    }
+
+    .header__decor-REC {
+      display: var(--dis-none);
+    }
+
+}
+
+@media (width <= 768px) {
+  .header__title {
+    text-shadow: 4px 4px 0px var(--color-dropshadow);
+  }
+}
 
 .page.theme_dark {
+  --main-font-family: 'IBM Plex Mono', monospace;
+  --accent-color: #FF0070;
+  --main-bg-color: #00183f;
+  --color-for-titles: #db00ff;
+  --main-text-color: #f1b2ce;
+  --color-corners: #ff0070;
+  --link-color: #FF0070;
+  --color-dropshadow: #FF0070;
+  --main-heading-color: #ff0070;
+  --section-heading-color: #000028;
+  background-image: url(../images/cover-image-dark.png);
+
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+    чем стили в медиазапросе предпочтений пользователя */
 }
+
+

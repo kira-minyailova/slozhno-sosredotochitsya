@@ -4,9 +4,40 @@
   переключая тему
 */
 
+:root {
+  --main-font-family: 'IBM Plex Mono', monospace;
+  --accent-color: #FF8DCB;
+  --main-bg-color: #FFF1F7;
+  --color-for-titles: #FFC2E6;
+  --main-text-color: #353430;
+  --color-corners: #353430;
+  --link-color: #FF8DCB;
+  --color-dropshadow: #FF0070;
+  --main-heading-color: #353430;
+  --section-heading-color: #353430;
+}
+
 .page.theme_light {
+  --main-font-family: 'IBM Plex Mono', monospace;
+  --accent-color: #FF8DCB;
+  --main-bg-color: #FFF1F7;
+  --color-for-titles: #FFC2E6;
+  --main-text-color: #353430;
+  --color-corners: #353430;
+  --link-color: #FF8DCB;
+  --color-dropshadow: #FF0070;
+  --main-heading-color: #353430;
+  --section-heading-color: #353430;
+  background-image: url(../images/cover-image-light.png);
+  --dis-none: none;
+
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+@media (prefers-color-scheme: light) {
+
+}
+
