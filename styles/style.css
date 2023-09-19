@@ -9,7 +9,6 @@
   background-color: var(--main-bg-color);
   font-family: var(--main-font-family);
   font-size: var(--main-text-size);
-
   background-image: url(../images/cover-image-light.png);
   background-position: center;
   background-attachment: fixed;
@@ -19,6 +18,7 @@
   position: relative;
 
 }
+
 
 .header__decor-REC {
   position: absolute;
@@ -124,7 +124,6 @@
   font-size: var(--main-text-size);
   font-weight: 400;
   line-height: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,7 +134,6 @@
   grid-area: title;
   margin-block-end: 14px;
   align-self: center;
-
   color: var(--color-for-titles);
   text-shadow: 4px 4px 0px var(--color-dropshadow);
   font-family: var(--main-font-family);
@@ -149,7 +147,6 @@
   margin-block-end: 97px;
   align-self: center;
   margin-inline-start: 10px;
-
   color: var(--section-heading-color);
   font-family: var(--main-font-family);
   font-size: var(--main-text-size);
@@ -287,7 +284,7 @@
   margin: 60px 20px 20px 20px;
   display: flex;
   max-width: 1024px;
-  height: 769px;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -449,7 +446,6 @@
     margin: 40px 10px 10px 10px; 
   }
 }
-
 
   
 
