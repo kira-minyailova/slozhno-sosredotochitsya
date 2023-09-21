@@ -78,15 +78,15 @@
 }
 
 .header::after {
-  top: 20px;
-  right: 20px;
+  top: var(--corners-top);
+  right: var(--corners-right);
   border-top: 1px solid var(--color-corners);
   border-right: 1px solid var(--color-corners);
 }
 
 .header::before {
-  bottom: 20px;
-  left: 20px;
+  bottom: var(--corners-bottom);
+  left: var(--corners-left);
   border-left: 1px solid var(--color-corners);
   border-bottom: 1px solid var(--color-corners);
 }
@@ -137,9 +137,10 @@
 .section__title {
   color: var(--main-heading-color);
   font-size: var(--main-text-size);
+  font-size: 67%;
   font-family: var(--main-font-family);
   font-weight: 700;
-  line-height: 130%;
+  line-height: 23.4px;
 }
 
 /* СЕКЦИЯ WHY + ОБЩИЕ СТИЛИ ДЛЯ СЕКЦИЙ*/
@@ -365,7 +366,8 @@
     justify-content: center;
     align-items: flex-end;
     gap: 13px;
-    margin-block-start: 160px;
+    margin-block-start: 166px;
+    margin-inline-end: 3px;
   }
 
   .header__text {
@@ -377,7 +379,7 @@
   }
 
   .section__image-gallery {
-    padding: 70px 20px 0 20px;
+    padding: 73px 20px 0 20px;
   }  
 
   .footer {
@@ -477,6 +479,7 @@
 }
 
 /* СОСТОЯНИЯ ЭЛЕМЕНТОВ */
+
 .header__theme-menu-button_active {
   outline: 1px solid var(--nav-color);
 }
@@ -494,6 +497,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
+  outline: none;
   border-bottom: 1px solid var(--nav-color);
 }
 
