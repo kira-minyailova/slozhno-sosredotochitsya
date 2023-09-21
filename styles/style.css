@@ -284,7 +284,7 @@
 
 .footer {
   position: relative;
-  margin: 60px 20px 0 20px;
+  margin: 60px 20px 10px 20px;
   display: flex;
   max-width: 1024px;
   height: 100vh;
@@ -378,15 +378,19 @@
     justify-content: center;
     align-items: flex-end;
     gap: 13px;
-    margin-block-start: 134px;
+    margin-block-start: 154px;
   }
 
+  .header__text {
+    margin-block-end: 77px;
+  }  
+
   .section__how {
-    padding: 60px 20px 0 20px;
+    padding: 65px 20px 0 20px;
   }
 
   .section__image-gallery {
-    padding: 60px 20px 0 20px;
+    padding: 70px 20px 0 20px;
   }  
 
   .footer {
