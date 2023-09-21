@@ -15,6 +15,7 @@
   --color-dropshadow: #FF0070;
   --main-heading-color: #353430;
   --section-heading-color: #353430;
+  --dis-none: none
 }
 
 .page.theme_light {
@@ -37,7 +38,7 @@
   */
 }
 
-@media (prefers-color-scheme: light) {
-
-}
+/* @media (prefers-color-scheme: light) {
+  
+} */
 

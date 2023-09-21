@@ -9,23 +9,24 @@
     <link rel="icon" href="images/favicon.ico" sizes="any">
     <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 
-    <link rel="stylesheet" href="./styles/variables.css">
-    <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/globals.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/light.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
-    <link rel="stylesheet" href="./styles/light.css">
 
     <title>Сложно сосредоточиться</title>
   </head>
   <body class="page">
     <header class="header">
-      <div class="header__decor-REC" aria-hidden="true">REC</div>
+      <div class="header__decor-rec" aria-hidden="true">REC</div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
+              type="button"
             >
               день
             </button>
@@ -33,14 +34,15 @@
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-              disabled
+              disabled type="button"
             >
               авто
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
-              class="header__theme-menu-button header__theme-menu-button_type_dark"
+              class="header__theme-menu-button header__theme-menu-button_type_dark" 
+              type="button"
             >
               неон
             </button>

@@ -3,7 +3,7 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme_dark {
+.page.theme_dark {
   --main-font-family: 'IBM Plex Mono', monospace;
   --accent-color: #FF0070;
   --main-bg-color: #00183f;
@@ -15,6 +15,8 @@
   --main-heading-color: #ff0070;
   --section-heading-color: #000028;
   --section-subtitle-color: #353535;
+  display: block;
+  background-image: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,13 +32,25 @@
     --main-heading-color: #ff0070;
     --section-heading-color: #000028;
     --section-subtitle-color: #353535;
-    --dis-none: visible;
+    --dis-none: block;
     }
 
-    .header__decor-REC {
-      display: var(--dis-none);
+  .page {
+      --main-font-family: 'IBM Plex Mono', monospace;
+      --accent-color: #FF0070;
+      --main-bg-color: #00183f;
+      --color-for-titles: #db00ff;
+      --main-text-color: #f1b2ce;
+      --color-corners: #ff0070;
+      --link-color: #FF0070;
+      --color-dropshadow: #FF0070;
+      --main-heading-color: #ff0070;
+      --section-heading-color: #000028;
+      --section-subtitle-color: #353535;
+      display: block;
+      background-image: url(../images/cover-image-dark.png);
     }
-
+    
 }
 
 @media (width <= 768px) {
@@ -44,19 +58,3 @@
     text-shadow: 4px 4px 0px var(--color-dropshadow);
   }
 }
-
-.page.theme_dark {
-  --main-font-family: 'IBM Plex Mono', monospace;
-  --accent-color: #FF0070;
-  --main-bg-color: #00183f;
-  --color-for-titles: #db00ff;
-  --main-text-color: #f1b2ce;
-  --color-corners: #ff0070;
-  --link-color: #FF0070;
-  --color-dropshadow: #FF0070;
-  --main-heading-color: #ff0070;
-  --section-heading-color: #000028;
-  background-image: url(../images/cover-image-dark.png);
-}
-
-
