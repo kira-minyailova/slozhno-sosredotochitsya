@@ -378,7 +378,7 @@
     justify-content: center;
     align-items: flex-end;
     gap: 13px;
-    margin-block-start: 154px;
+    margin-block-start: 140px;
   }
 
   .header__text {
@@ -386,11 +386,11 @@
   }  
 
   .section__how {
-    padding: 65px 20px 0 20px;
+    padding: 68px 20px 0 20px;
   }
 
   .section__image-gallery {
-    padding: 70px 20px 0 20px;
+    padding: 63px 20px 0 20px;
   }  
 
   .footer {
@@ -406,7 +406,7 @@
   }
 
   .section__what {
-    padding: 50px 10px 0 10px;
+    padding: 45px 10px 0 10px;
   }
 
   .section__how {
@@ -435,8 +435,22 @@
     grid-template-columns: 1fr;
   }
 
+  .header::after {
+    top: 10px;
+    right: 10px;
+  }
+
+  .header::before {
+    bottom: 10px;
+    left: 10px;
+  }
+
   .header__title {
-    margin-block-start: 66px;
+    margin-block-start: 53px;
+  }
+
+  .header__title {
+    text-shadow: 4px 4px 0px var(--color-for-titles);
   }
 
   .header__text {
@@ -445,7 +459,7 @@
   }
 
   .header__theme-menu-list {
-    margin-block-start: 77px;
+    margin-block-start: 65px;
   }
 
   .section__title-what {
