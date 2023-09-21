@@ -10,10 +10,15 @@
   --color-for-titles: #FFC2E6;
   --main-text-color: #353430;
   --color-corners: #353430;
+  --link-hover-color: #353430;
   --link-color: #FF8DCB;
   --color-dropshadow: #FF0070;
   --main-heading-color: #353430;
   --section-heading-color: #353430;
+  --nav-color: #353430;
+  --dis-none: none;
+  --nav-hover-color: rgba(50, 49, 45, 0.40);
   --main-text-size: 18px;
   --main-line-height: 1.3;
 }
+
