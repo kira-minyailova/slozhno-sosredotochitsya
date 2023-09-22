@@ -430,7 +430,7 @@
 
   .header {
     /* block-size: 100vh; */
-    min-height: 688px;
+    min-height: 680px;
   }
 
   .header__title {
@@ -470,7 +470,7 @@
   }
 
   .footer {
-    min-height: 688px;
+    min-height: 680px;
     padding: 40px 10px 0 10px;
   }
 }

@@ -86,7 +86,6 @@
     }
 
     .header__theme-menu-button:focus-visible {
-      outline: none;
       border-bottom: 1px solid var(--nav-color);
     }
   }

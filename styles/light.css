@@ -13,11 +13,12 @@
   --color-corners: #353430;
   --link-color: #FF8DCB;
   --link-hover-color: #353430;
-  --color-dropshadow: #FF0070;
+  --color-dropshadow: #FF8DCB;
   --main-heading-color: #353430;
   --section-heading-color: #353430;
   --nav-hover-color: rgba(50, 49, 45, 0.40);
   --nav-color: #353430;
   background-image: url(../images/cover-image-light.png);
   --dis-none: none;
+  background-color: #FFF1F7;
 }
