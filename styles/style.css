@@ -78,15 +78,15 @@
 }
 
 .header::after {
-  top: var(--corners-top);
-  right: var(--corners-right);
+  top: 20px;
+  right: 20px;
   border-top: 1px solid var(--color-corners);
   border-right: 1px solid var(--color-corners);
 }
 
 .header::before {
-  bottom: var(--corners-bottom);
-  left: var(--corners-left);
+  bottom: 10px;
+  left: 20px;
   border-left: 1px solid var(--color-corners);
   border-bottom: 1px solid var(--color-corners);
 }
