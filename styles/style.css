@@ -42,7 +42,7 @@
 
 .header {
   position: relative;
-  padding: 20px 20px 0 0;
+  margin: 20px 20px 0 0;
   min-height: 768px;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -146,7 +146,7 @@
 
 .section__why {
   display: flex;
-  padding: 58px 20px 0 20px;
+  margin: 58px 20px 0 20px;
   gap: 20px;
 }
 
@@ -186,7 +186,7 @@
 .section__what {
   display: flex;
   flex-direction: column;
-  padding: 69px 20px 0 20px;
+  margin: 69px 20px 0 20px;
 }
 
 .section__title-what {
@@ -209,7 +209,7 @@
 .section__how {
   display: flex;
   gap: 20px;
-  padding: 70px 20px 0 20px;
+  margin: 70px 20px 0 20px;
 }
 
 .content__card-title-how {
@@ -227,7 +227,7 @@
 /* ГАЛЕРЕЯ ФОТОК */
 
 .section__image-gallery {
-  padding: 70px 20px 0 20px;
+  margin: 70px 20px 0 20px;
 }
 
 .image-gallery {
@@ -365,7 +365,7 @@
     justify-content: center;
     align-items: flex-end;
     gap: 13px;
-    margin-block-start: 135px;
+    margin-block-start: 155px;
   }
 
   .header__text {
@@ -373,15 +373,15 @@
   }
 
   .section__how {
-    padding: 68px 20px 0 20px;
+    margin: 68px 20px 0 20px;
   }
 
   .section__why {
-    padding: 34px 10px 0 10px;
+    margin: 34px 10px 0 10px;
   }
 
   .section__image-gallery {
-    padding: 73px 20px 0 20px;
+    margin: 73px 20px 0 20px;
   }
 
   .footer {
@@ -393,20 +393,20 @@
   .section__why {
     display: flex;
     flex-direction: column;
-    padding: 40px 10px 0 10px;
+    margin: 40px 10px 0 10px;
   }
 
   .section__what {
-    padding: 45px 10px 0 10px;
+    margin: 45px 10px 0 10px;
   }
 
   .section__how {
     flex-direction: column;
-    padding: 50px 10px 0 10px;
+    margin: 50px 10px 0 10px;
   }
 
   .section__image-gallery {
-    padding: 50px 10px 0 10px;
+    margin: 50px 10px 0 10px;
   }
 }
 
@@ -438,12 +438,12 @@
   }
 
   .header__title {
-    padding: 0 0 20px 10px;
+    margin: 0 0 17px 10px;
     text-shadow: 4px 4px 0px var(--color-for-titles);
   }
 
   .header__text {
-    margin-block-end: 40px;
+    margin-block-end: 45px;
     min-width: 355px;
   }
 
@@ -456,15 +456,15 @@
   }
 
   .section__what {
-    padding: 42px 10px 0 10px;
+    margin: 42px 10px 0 10px;
   }
 
   .section__how {
-    padding: 40px 10px 0 10px;
+    margin: 40px 10px 0 10px;
   }
 
   .section__image-gallery {
-    padding: 40px 10px 0 10px;
+    margin: 40px 10px 0 10px;
   }
 
   .image-gallery {
@@ -475,7 +475,7 @@
 
   .footer {
     min-height: 680px;
-    padding: 40px 10px 0 10px;
+    margin: 40px 10px 0 10px;
   }
 }
 
