@@ -373,15 +373,15 @@
   }
 
   .section__how {
-    padding: 68px 20px 0 20px;
+    margin:  68px 20px 0 20px;
   }
 
   .section__why {
-    padding: 34px 10px 0 10px;
+    margin: 34px 10px 0 10px;
   }
 
   .section__image-gallery {
-    padding: 73px 20px 0 20px;
+    margin: 73px 20px 0 20px;
   }
 
   .footer {
