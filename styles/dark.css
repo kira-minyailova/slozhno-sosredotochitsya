@@ -24,6 +24,7 @@
   --corners-left: 20px;
   --corners-right: 20px;
   --corners-bottom: 20px;
+  background-color: #000028;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -90,8 +91,8 @@
     }
   }
 
-/* @media (width <= 768px) {
+  @media (width <= 768px) {
   .header__title {
     text-shadow: 4px 4px 0px var(--color-dropshadow);
   }
-} */
+}
