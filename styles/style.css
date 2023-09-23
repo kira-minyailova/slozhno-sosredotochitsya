@@ -364,7 +364,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    gap: 10px;
+    gap: 12px;
     margin-block-start: 173px;
   }
 
@@ -472,9 +472,13 @@
     gap: 10px;
   }
 
+  .section__title-image {
+    margin-block-end: 10px;
+}
+
   .footer {
     min-height: 680px;
-    margin: 40px 10px 0 10px;
+    margin: 30px 10px 0 10px;
   }
 }
 
