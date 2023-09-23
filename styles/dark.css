@@ -69,7 +69,7 @@
       background-color: #000028;
     }
   
-    /* .header__theme-menu-button_active {
+    .header__theme-menu-button_active {
       outline: 1px solid var(--nav-color);
     }
   
@@ -87,11 +87,11 @@
 
     .header__theme-menu-button:focus-visible {
       border-bottom: 1px solid var(--nav-color);
-    } */
+    }
   }
 
-@media (width <= 768px) {
+/* @media (width <= 768px) {
   .header__title {
     text-shadow: 4px 4px 0px var(--color-dropshadow);
   }
-}
+} */
