@@ -364,7 +364,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    gap: 13px;
+    gap: 10px;
     margin-block-start: 173px;
   }
 
@@ -428,12 +428,12 @@
   }
 
   .header::before {
-    bottom: 13px;
+    bottom: 15px;
     left: 10px;
   }
 
   .header {
-    min-height: 680px;
+    min-height: 675px;
   }
 
   .header__title {
@@ -442,7 +442,7 @@
   }
 
   .header__text {
-    margin-block-end: 40px;
+    margin-block-end: 70px;
     min-width: 355px;
   }
 
