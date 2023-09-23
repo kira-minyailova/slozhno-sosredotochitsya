@@ -365,7 +365,7 @@
     justify-content: center;
     align-items: flex-end;
     gap: 13px;
-    margin-block-start: 165px;
+    margin-block-start: 173px;
   }
 
   .header__text {
@@ -393,7 +393,7 @@
   .section__why {
     display: flex;
     flex-direction: column;
-    padding: 40px 10px 0 10px;
+    margin: 40px 10px 0 10px;
   }
 
   .section__what {
@@ -433,8 +433,7 @@
   }
 
   .header {
-    block-size: 100vh;
-    /* min-height: 680px; */
+    min-height: 680px;
   }
 
   .header__title {
@@ -474,8 +473,7 @@
   }
 
   .footer {
-    block-size: 100vh;
-    /* min-height: 680px; */
+    min-height: 680px;
     margin: 40px 10px 0 10px;
   }
 }
