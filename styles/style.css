@@ -447,8 +447,8 @@
   }
 
   .header__theme-menu-list {
-    margin-block-start: 52px;
-    gap: 13px;
+    margin-block-start: 58px;
+    gap: 11px;
 
   }
 
@@ -457,7 +457,7 @@
   }
 
   .section__why {
-    margin: 30px 10px 0 10px;
+    margin: 34px 10px 0 10px;
   }
 
   .section__what {
