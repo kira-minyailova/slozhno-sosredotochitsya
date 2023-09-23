@@ -365,7 +365,7 @@
     justify-content: center;
     align-items: flex-end;
     gap: 13px;
-    margin-block-start: 155px;
+    margin-block-start: 165px;
   }
 
   .header__text {
@@ -433,8 +433,8 @@
   }
 
   .header {
-    /* block-size: 100vh; */
-    min-height: 680px;
+    block-size: 100vh;
+    /* min-height: 680px; */
   }
 
   .header__title {
@@ -474,7 +474,8 @@
   }
 
   .footer {
-    min-height: 680px;
+    block-size: 100vh;
+    /* min-height: 680px; */
     margin: 40px 10px 0 10px;
   }
 }
