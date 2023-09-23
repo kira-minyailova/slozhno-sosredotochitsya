@@ -364,7 +364,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    gap: 12px;
+    gap: 16px;
     margin-block-start: 173px;
   }
 
@@ -442,16 +442,22 @@
   }
 
   .header__text {
-    margin-block-end: 70px;
+    margin-block-end: 50px;
     min-width: 355px;
   }
 
   .header__theme-menu-list {
     margin-block-start: 65px;
+    gap: 15px;
+
   }
 
   .section__title-what {
     min-width: 355px;
+  }
+
+  .section__why {
+    margin: 30px 10px 0 10px;
   }
 
   .section__what {
