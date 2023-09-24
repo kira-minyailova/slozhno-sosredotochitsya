@@ -435,7 +435,7 @@
   .header__decor-rec {
     position: absolute;
     right: 40px;
-    top: 15px;
+    top: 13px;
     display: var(--dis-none);
     color: var(--accent-color);
   }
@@ -458,7 +458,15 @@
   .header__theme-menu-list {
     margin-block-start: 58px;
     gap: 14px;
-    margin-inline-end: 7px;
+    margin-inline-end: 2px;
+  }
+
+  /* .header__theme-menu-item {
+    margin-inline-end: 5px;
+  } */
+
+  .header__theme-menu-item:not(:last-child) {
+    margin-inline-end: 6px;
   }
 
   .section__title-what {
@@ -517,11 +525,10 @@
 }
 
 /* СОСТОЯНИЯ ЭЛЕМЕНТОВ */
-.header__theme-menu-button {
-}
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--nav-color);
+  padding: 4px 12px;
 }
 
 .header__theme-menu-button:hover {
