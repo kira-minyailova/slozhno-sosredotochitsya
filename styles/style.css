@@ -107,7 +107,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 30px;
 }
 
 .header__title {
@@ -360,10 +360,14 @@
     text-shadow: 4px 4px 0px var(--color-dropshadow-for-phone);
   }
 
+  .header__theme-menu {
+    display: grid;
+    justify-items: end;
+  }
+
   .header__theme-menu-list {
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
     gap: 16px;
     margin-block-start: 173px;
   }
