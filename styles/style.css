@@ -369,7 +369,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 16px;
-    margin-block-start: 94px;
+    margin-block-start: 98px;
   }
 
   .header__text {
@@ -461,7 +461,7 @@
 
   .header__theme-menu-list {
     margin-block-start: 1px;
-    gap: 13px;
+    gap: 10px;
     /* margin-inline-end: 4px; */
   }
 
