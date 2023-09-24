@@ -526,7 +526,12 @@
 
 /* СОСТОЯНИЯ ЭЛЕМЕНТОВ */
 
-.header__theme-menu-button_active {
+/* .header__theme-menu-button_active {
+  outline: 1px solid var(--nav-color);
+  padding: 3px 12px;
+} */
+
+.header__theme-menu-button_active:not(:hover:focus-visible) {
   outline: 1px solid var(--nav-color);
   padding: 3px 12px;
 }
