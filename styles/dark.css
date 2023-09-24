@@ -75,7 +75,7 @@
     }
   
     .header__theme-menu-button:hover {
-      border: 1px solid var(--nav-hover-color);
+      outline: 1px solid var(--nav-hover-color);
     }
   
     .link:hover {

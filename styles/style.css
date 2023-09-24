@@ -445,6 +445,7 @@
   }
 
   .header__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     padding: 10px 0 20px 8px;
     text-shadow: 4px 4px 0px var(--color-for-titles);
   }
@@ -495,6 +496,10 @@
     margin: 36px 10px 0 10px;
   }
 
+  .footer__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+
   .footer::after {
     top: 14px;
   }
@@ -512,13 +517,15 @@
 }
 
 /* СОСТОЯНИЯ ЭЛЕМЕНТОВ */
+.header__theme-menu-button {
+}
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--nav-color);
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--nav-hover-color);
+  outline: 1px solid var(--nav-hover-color);
   cursor: pointer;
   /* transform: scale(1.1);
   font-size: 106%;
