@@ -107,7 +107,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 25px;
 }
 
 .header__title {
@@ -369,7 +369,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 16px;
-    margin-block-start: 173px;
+    margin-block-start: 150px;
   }
 
   .header__text {
@@ -460,7 +460,7 @@
   }
 
   .header__theme-menu-list {
-    margin-block-start: 58px;
+    margin-block-start: 40px;
     gap: 14px;
     margin-inline-end: 4px;
   }
